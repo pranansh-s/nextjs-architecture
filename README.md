@@ -10,5 +10,5 @@ Contains
 * PostCSS
 * Autoprefixer
 
-Works great with large scale projects with multiple contributors <\br>
+Works great with large scale projects with multiple contributors </br>
 Made for personal use but you are always welcome to use it 🫡😇🤧🤧
