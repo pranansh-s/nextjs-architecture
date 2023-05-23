@@ -20,10 +20,9 @@ made for personal use but you are always welcome to use it 🫡😇🤧🤧
 </br></br>
 note: If you wish to use a Typescript version make sure to run these commands to install Typescript and typings for React </br>
 ```CLI
-npm install --save-dev typescript
-npm install --save-dev @types/react @types/react-dom
+npm i --save-dev typescript @types/node @types/react @types/react-dom
 ```
-Rename all the file extensions from .js to .ts or .jsx to .tsx
+Rename all the file extensions from .js to .ts or .jsx to .tsx along with next.config.js
 and add the following code in `tsconfig.json` at root directory
 
 ```JSON
