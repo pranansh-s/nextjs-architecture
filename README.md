@@ -22,7 +22,7 @@ note: If you wish to use a Typescript version make sure to run these commands to
 ```CLI
 npm i --save-dev typescript @types/node @types/react @types/react-dom
 ```
-Rename all the file extensions from .js to .ts or .jsx to .tsx along with next.config.js
+Rename all the file extensions from .js to .ts or .jsx to .tsx except the config files
 and add the following code in `tsconfig.json` at root directory
 
 ```JSON
@@ -40,9 +40,10 @@ and add the following code in `tsconfig.json` at root directory
     "noEmit": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "incremental": true
+    "incremental": true,
+    "moduleResolution": "node"
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "next.config.js"],
   "exclude": ["node_modules"]
 }
 ```
